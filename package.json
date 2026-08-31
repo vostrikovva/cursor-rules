@@ -1,0 +1,23 @@
+{
+  "name": "cursor-rules",
+  "version": "0.1.0",
+  "description": "Catalog of Cursor rules installed by named sets",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "cursor-rules": "./scripts/install.mjs"
+  },
+  "scripts": {
+    "check-rules": "node scripts/check-rules.mjs",
+    "prepare": "simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm run check-rules"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.8.0"
+  },
+  "devDependencies": {
+    "simple-git-hooks": "^2.13.1"
+  }
+}

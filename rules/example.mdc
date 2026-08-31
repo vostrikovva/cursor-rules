@@ -1,0 +1,8 @@
+---
+description: Smoke-test Cursor rule for this catalog. Safe to install; does not change project behavior.
+alwaysApply: false
+---
+
+# Example rule
+
+This file exists so the installer and `npm run check-rules` have something to copy. Replace or remove it when real rules land in `rules/`.

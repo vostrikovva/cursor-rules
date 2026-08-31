@@ -71,8 +71,8 @@ README: установка по имени набора, как добавить
 
 ## Чеклист реализации
 
-- [ ] package.json, .gitignore, MIT LICENSE, sets.json, README.ru/en
-- [ ] Установщик: набор → `.cursor/rules` / `~/.cursor/rules`
-- [ ] check-rules.mjs (frontmatter, уникальные id, ссылки в sets.json)
-- [ ] rules/example.mdc, набор `all` → `["example"]`
-- [ ] Удалить случайные `.cursor/skills` и `.agents/skills`
+- [x] package.json, .gitignore, MIT LICENSE, sets.json, README.ru/en
+- [x] Установщик: набор → `.cursor/rules` / `~/.cursor/rules`
+- [x] check-rules.mjs (frontmatter, уникальные id, ссылки в sets.json)
+- [x] rules/example.mdc, набор `all` → `["example"]`
+- [x] Удалить случайные `.cursor/skills` и `.agents/skills`
